@@ -4,3 +4,5 @@ SRC_URI += " \
     file://enable-uvc-camera.cfg \
     file://enable-snd-usb.cfg \
 "
+
+DEPENDS += " linux-firmware"
