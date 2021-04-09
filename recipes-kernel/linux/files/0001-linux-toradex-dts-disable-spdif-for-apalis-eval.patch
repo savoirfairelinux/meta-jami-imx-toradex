@@ -1,0 +1,40 @@
+From 029b6b3ce97f9e90705c9f0f2a16d4718a28e4c0 Mon Sep 17 00:00:00 2001
+From: Philip-Dylan Gleonec <philip-dylan.gleonec@savoirfairelinux.com>
+Date: Tue, 2 Mar 2021 16:19:37 +0100
+Subject: [PATCH] linux-toradex: dts: disable spdif for apalis-eval
+
+Disable spdif interfaces in imx6q-apalis-eval board device tree.
+
+This is done as spdif is not used in our board, but is detected as a
+`Built-in stereo` by pulseaudio, the same name as the sgtl5000 codec.
+This, in turn, confuses Jami who always tries to use the spdif when
+selecting a `Built-in stereo` in preferences, making it unable to use
+the codec stereo interface.
+As spdif is not used, the simplest fix is to disable it.
+
+Issue: #5296
+---
+ arch/arm/boot/dts/imx6q-apalis-eval.dts | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/arch/arm/boot/dts/imx6q-apalis-eval.dts b/arch/arm/boot/dts/imx6q-apalis-eval.dts
+index 70be137c1f8b..739c7b62f151 100644
+--- a/arch/arm/boot/dts/imx6q-apalis-eval.dts
++++ b/arch/arm/boot/dts/imx6q-apalis-eval.dts
+@@ -428,11 +428,11 @@
+ };
+ 
+ &sound_spdif {
+-	status = "okay";
++	status = "disabled";
+ };
+ 
+ &spdif {
+-	status = "okay";
++	status = "disabled";
+ };
+ 
+ &uart1 {
+-- 
+2.25.1
+
