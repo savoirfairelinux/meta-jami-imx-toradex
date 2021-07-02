@@ -17,17 +17,17 @@ This layer depends on:
 
 URI: git://github.com/openembedded/openembedded-core.git
 branch: master
-revision: 10221e578ffb3551ccefe15a523ceba0d289c086
+revision: 8042ad9ca91ddaaf741366e1068c63c284ff98f5
 prio: default
 
 URI: git://git.yoctoproject.org/meta-yocto
 branch: master
-revision: 9f108add55395e82081907675f881052c336ae26
+revision: c4d4fd958ace34f050d2830895470dacc2435b1f
 prio: default
 
 URI: git://github.com/openembedded/meta-openembedded.git
 branch: master
-revision: 698748c1538ed03efbcfdd936cf8317b4f138c29
+revision: 73d5cd5e8d9d8a922b6a8a9d90adf0470a99314e
 layers: meta-oe
         meta-networking
         meta-multimedia
@@ -35,32 +35,32 @@ prio: default
 
 URI: git://github.com/meta-qt5/meta-qt5.git
 branch: master
-revision: 7a9f639fbd632dbe23af95c7b8123a0b907c6179
+revision: aa96d3b978d63caeaaf5294b0171506c89cb7eba
 prio: default
 
 URI: git://git.openembedded.org/meta-python2
 branch: master
-revision: c43c29e57f16af4e77441b201855321fbd546661
+revision: 8db9e4f6ceae33d7a4f55453d31e69f9858af4eb
 prio: default
 
 URI: git://github.com/Freescale/meta-freescale-3rdparty.git
 branch: master
-revision: 9000d8b388de98a13d6db2a98cd21602e0a7b715
+revision: 35acd1042698e1b3fa3a2228e47945e7e4f314f7
 prio: default
 
 URI: git://github.com/Freescale/meta-freescale.git
 branch: master
-revision: 6bc3d8825c20d21528e24a7237ff7392e01a81bd
+revision: b656c6499a452bd3040bed71f9188a7f09f464ad
 prio: default
 
 URI: git://git.toradex.com/meta-toradex-nxp.git
 branch: master
-revision: 8a2e5df0404ac59a5f1e74638a4220274afb4867
+revision: 3a39f05ba621731d417d98f2f22ec31f85b1f748
 prio: default
 
 URI: git://git.toradex.com/meta-toradex-bsp-common.git
 branch: master
-revision: cdcf6c6c538f4458e798530762d9d1b0db510f7a
+revision: 90b27b19f9e2f83efcc9294450ad05b8d5839593
 prio: default
 
 URI: git://github.com/savoirfairelinux/meta-jami.git
