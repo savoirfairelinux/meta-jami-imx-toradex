@@ -15,52 +15,57 @@ Dependencies
 ------------
 This layer depends on:
 
+URI: git@github.com:openembedded/bitbake.git
+branch: master
+revision: f1c4ac816e927f490fb9852c12aa408e8c9403b1
+prio: default
+
 URI: git://github.com/openembedded/openembedded-core.git
 branch: master
-revision: 8042ad9ca91ddaaf741366e1068c63c284ff98f5
+revision: d1849a1facd64fa0bcf8336a0ed5fbf71b2e3cb5
 prio: default
 
 URI: git://git.yoctoproject.org/meta-yocto
 branch: master
-revision: c4d4fd958ace34f050d2830895470dacc2435b1f
+revision: 1b71a3b9418fd928fb72bd23898cffe70c43d9d5
 prio: default
 
 URI: git://github.com/openembedded/meta-openembedded.git
 branch: master
-revision: 73d5cd5e8d9d8a922b6a8a9d90adf0470a99314e
+revision: fe149bbb3689c3ed83eddfec46c9a54e86308cb9
 layers: meta-oe
         meta-networking
         meta-multimedia
 prio: default
 
-URI: git://github.com/meta-qt5/meta-qt5.git
-branch: master
-revision: aa96d3b978d63caeaaf5294b0171506c89cb7eba
+URI: git://code.qt.io/yocto/meta-qt6.git
+branch: 6.2.4
+revision: f52e491cd9e56d0fc653fb32db1ccf78710e92dc
 prio: default
 
 URI: git://git.openembedded.org/meta-python2
 branch: master
-revision: 8db9e4f6ceae33d7a4f55453d31e69f9858af4eb
+revision: f02882e2aa9279ca7becca8d0cedbffe88b5a253
 prio: default
 
 URI: git://github.com/Freescale/meta-freescale-3rdparty.git
 branch: master
-revision: 35acd1042698e1b3fa3a2228e47945e7e4f314f7
+revision: f244dd4b26f5958e586f2cee3e6854489c2a049f
 prio: default
 
 URI: git://github.com/Freescale/meta-freescale.git
 branch: master
-revision: b656c6499a452bd3040bed71f9188a7f09f464ad
+revision: a8c27bc00728f9602ab0458e71c4a1f3ef74838a
 prio: default
 
 URI: git://git.toradex.com/meta-toradex-nxp.git
 branch: master
-revision: 3a39f05ba621731d417d98f2f22ec31f85b1f748
+revision: 3112c5877d4dba188126062998de65501f6e894b
 prio: default
 
 URI: git://git.toradex.com/meta-toradex-bsp-common.git
 branch: master
-revision: 90b27b19f9e2f83efcc9294450ad05b8d5839593
+revision: 44341df4b79ccdf2072d0f2a49ce7893e321dfef
 prio: default
 
 URI: git://github.com/savoirfairelinux/meta-jami.git
