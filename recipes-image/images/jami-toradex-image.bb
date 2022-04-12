@@ -1,5 +1,5 @@
 DESCRIPTION = "A minimal image to run Jami on Toradex i.MX 6"
-LICENSE = "GPL-3.0"
+LICENSE = "GPL-3.0-only"
 require recipes-core/images/core-image-minimal.bb
 
 IMAGE_INSTALL += " \
